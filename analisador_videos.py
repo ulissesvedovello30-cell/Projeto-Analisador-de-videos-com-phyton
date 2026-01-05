@@ -9,7 +9,8 @@ ffmpeg_path = r"C:\ffmpeg\ffmpeg-8.0-full_build\bin"
 os.environ["PATH"] = ffmpeg_path + os.pathsep + os.environ["PATH"]
 
 # Inicializa o client da Groq
-client = Groq(api_key="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")
+client = Groq(api_key="Coloque sua Chave Api da Groq aqui/
+Enter your Groq API key here.")
 
 # Recebendo a URL do vídeo
 url = input("Digite a URL do vídeo: ")
